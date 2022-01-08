@@ -1,27 +1,26 @@
-# AngularDemo
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+Content-Length: 1187
+Content-Type: application/json; charset=utf-8
+Date: Sat, 08 Jan 2022 13:22:09 GMT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+Host: localhost:8090
+Origin: http://localhost:4200
+Referer: http://localhost:4200/
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+正确的请求
+---- 

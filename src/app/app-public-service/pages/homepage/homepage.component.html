@@ -1,0 +1,17 @@
+
+<d-row [dSpace]="12" [dJustify]="'center'" [dSpaceDirection]="'horizontal'">
+  <d-col [dSpan]="7" *ngFor="let item of items" [routerLink]="'/'+item.link">
+    <d-card class="card-container">
+      <d-card-header>
+        <d-avatar dCardAvatar [name]="'DevUI'"></d-avatar>
+        <d-card-title>{{item.title}}</d-card-title>
+        <d-card-subtitle><i [class]="item.icon"></i><span>DevUI</span></d-card-subtitle>
+      </d-card-header>
+      <d-card-content>
+      {{item.describe}}
+      </d-card-content>
+    </d-card>
+  </d-col>
+
+
+</d-row>
